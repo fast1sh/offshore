@@ -1,0 +1,45 @@
+.feedback
+	padding-top: 66px
+	padding-bottom: 66px
+	text-align: center
+	background-color: #eef1f4
+	&-block
+		margin: 10px
+		padding: 63px 54px
+		border-radius: 30px
+		background-color: $light
+		position: relative
+		&__wrap
+			padding-top: 50px
+		&__first
+			&:before 
+				content: ''
+				position: absolute
+				top: -15%
+				left: 50%
+				transform: translateX(-50%)
+				display: block
+				width: 97px
+				height: 97px
+				background: url(../img/feedback/1.png) 0 0 no-repeat
+		&__second
+			&:before 
+				content: ''
+				position: absolute
+				top: -15%
+				left: 50%
+				transform: translateX(-50%)
+				display: block
+				width: 97px
+				height: 97px
+				background: url(../img/feedback/2.png) 0 0 no-repeat
+		&__name
+			margin-bottom: 12px
+			font-family: $semibold
+			font-family: 20px
+		&__profession
+			margin-bottom: 42px
+			font-size: 16px
+		&__feedback
+			font-family: $italic
+			font-size: 18px
