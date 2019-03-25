@@ -1,1 +1,4 @@
 # offshore
+---
+permalink: /index.html
+---
