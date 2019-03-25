@@ -1,0 +1,37 @@
+.news 
+	padding-top: 85px
+	padding-bottom: 90px
+	&-wrap
+		display: flex
+	&-block 
+		margin-right: 30px
+		padding: 310px 0 37px 30px
+		border-radius: 30px
+		border: 1px solid #e0e4e4
+		flex-basis: 500px
+		&:nth-child(1)
+			background: url(../img/news/bg-1.jpg) 0 0 no-repeat
+		&:nth-child(2)
+			background: url(../img/news/bg-2.jpg) 0 0 no-repeat
+		&:nth-child(3)
+			background: url(../img/news/bg-3.jpg) 0 0 no-repeat
+		&__title
+			margin-bottom: 27px
+			font-size: 20px
+			font-family: $bold
+		&__subtitle 
+			margin-bottom: 45px
+			font-family: 15px
+			color: #748182
+		&__button 
+			border-radius: 4px
+			border: 1px solid #eff2f2
+			background-color: transparent
+			font-family: $semibold
+			font-size: 16px
+			padding: 16px 38px
+			transition: 0.4s
+			&:hover
+				cursor: pointer
+				background-color: $main
+				color: $light

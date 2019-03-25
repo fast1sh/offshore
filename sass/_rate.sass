@@ -1,0 +1,43 @@
+.rate
+	padding-top: 90px
+	padding-bottom: 90px
+	background-color:  #eef1f4
+	position: relative
+	&::before 
+		content: ''
+		position: absolute
+		display: block
+		width: 1px
+		height: 150px
+		top: 50%
+		left: 50%
+		transform: translateY(-50%)
+		background-color: rgba(161, 161, 161, 0.5)
+	&-wrap
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&-title
+		text-align: left
+		margin-bottom: 0
+		margin-right: 35px
+		font-size: 50px
+		max-width: 600px
+	&-block 
+		color: $main
+		max-width: 550px
+		&__title
+			margin-bottom: 35px
+			font-size: 26px
+			font-family: $bold
+			text-transform: uppercase
+			line-height: 34px
+		&__subtitle
+			font-size: 20px
+			&::before 
+				content: ''
+				margin-bottom: 18px
+				display: block
+				width: 124px
+				height: 17px
+				background: url(../img/rate/stars.png) center no-repeat

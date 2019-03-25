@@ -1,0 +1,67 @@
+.footer
+	padding-top: 58px
+	padding-bottom: 0
+	background-color: #282828
+	color: $light
+	&-wrap
+		display: flex
+		justify-content: space-between
+	&-block 
+		&__title
+			margin-bottom: 26px
+			font-family: $semibold
+			font-size: 16px
+			text-transform: uppercase
+		&__content
+			&-wrap
+				&_cards
+					display: flex
+					flex-flow: row wrap
+					max-width: 200px
+			&-item 
+				margin-bottom: 23px
+				margin-right: 8px
+			&-link 
+				color: $light
+				&:hover
+					color: $main
+					.footer-block__content-icon
+						background-color: $main
+						color: $light
+			&-icon 
+				margin-right: 20px
+				width: 30px
+				height: 30px
+				border-radius: 10px
+				font-size: 12px
+				background-color: rgba(255, 255, 255, 0.1)
+				text-align: center
+				line-height: 30px
+	&-bottom 
+		background-color: #101010
+		padding-top: 18px
+		padding-bottom: 18px
+		&__wrap 
+			display: flex
+			justify-content: space-between
+			align-items: center
+		&__block 
+			display: flex
+			&-link 
+				color: #888888
+				font-size: 14px
+				margin-right: 10px
+				&:hover
+					color: $main
+			&-icon 
+				margin-right: 20px
+				width: 28px
+				height: 28px
+				border-radius: 10px
+				font-size: 12px
+				background-color: rgba(255, 255, 255, 0.1)
+				color: $light
+				text-align: center
+				line-height: 30px
+				&:hover
+					background-color: $main
